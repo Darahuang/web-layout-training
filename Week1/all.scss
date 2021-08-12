@@ -1,0 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+$font-m: 1rem;
+$spacer: 1rem;
+
+// 1: $spacer * .25,
+// 2: $spacer * .5,
+// 3: $spacer,
+// 4: $spacer * 1.5,
+// 5: $spacer * 2,
+// 6: $spacer * 3,
+// 7: $spacer * 4.5,
+// h2 1rem*2
+// h3 1rem*1.5
+// h4 1rem*1.25
+body{
+	line-height: 1.5;
+}
+.font-family-Roboto-Regular{
+	font-family: 'Roboto', sans-serif;
+}
+.font-family-Roboto-Medium {
+	font-family: 'Roboto', sans-serif;
+}
+p{
+	font-size:$spacer * 1.5;
+}
+
+// .line-height{
+// 	line-height: 1.5;
+// }
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.h2{
+	font-size:$spacer * 2 ;
+}
+.h3{
+	font-size:$spacer * 1.5;
+}
+.fs-1{
+	font-size: $font-m*5;
+}
+.h4{
+	font-size: $font-m*1.25;
+}
+.mb-3{
+	margin-bottom: $spacer * 1 ;
+}
+.mb-4{
+	margin-bottom:$spacer * 1.5;
+}
+
+.mb-7{
+	margin-bottom:$spacer * 4.5;
+}
+.me-4{
+	margin-right: $spacer * 1.5;
+}
+.ms-4{
+	margin-left: $spacer * 1.5;
+}
+.ms-3{
+	margin-left: $spacer * 1;
+}
+
+.my-2{
+	margin: $spacer * 0.5 0;
+}
+.mt-3{
+	margin-top: $spacer * 1;
+}
+
+.my-6{
+	margin:$spacer * 3 0;
+}
+.text-align-center{
+	text-align: center;
+}
+.text-white{
+	color: white;
+}
+.bg-info{
+	background-color: #415165;
+}
+.text-danger{
+	color: #A00404;
+}
+.mx-auto{
+	margin: 0 auto;
+}
+.border-bottom-black{
+	border-bottom: 2px solid rgb(54, 54, 54);
+	padding-bottom: 10px;
+}
+.border-bottom-gray{
+	border-bottom: 2px solid rgb(153, 151, 151);
+	padding-bottom: 10px
+}
+.border-bottom-white{
+	border-bottom: 2px solid #fff;
+	padding-bottom: 10px
+}
+.border-left-lightGray{
+	border-left: 2px solid rgb(236, 233, 233);
+}
+.border-right-white{
+	border-left: 2px solid #fff;
+	
+}
+.p-5{
+	padding: $spacer * 2;
+}
+.ps-4{
+	padding-left: $spacer * 1.5;
+}
+
+.pb-2{
+	padding-bottom: $spacer* 0.5;
+}
+.pb-4{
+	padding-bottom: $spacer * 1.5;
+}
+.ps-4{
+	padding-left: $spacer * 1.5;
+}
+
+.text-decoration-none{
+	text-decoration: none;
+}
+
+.d-flex{
+	display: flex;
+}
+.justify-content-center{
+	justify-content: center;
+}
+.hover:hover{
+	color: #8ae79e;
+}
+.sns{
+	display: block;
+}
+.fb:hover{
+	background-color: #3b5998;
+	border-radius: 12px;
+}
+.ig:hover{
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  border-radius: 12px;
+ }
+.line:hover{
+	background-color: #00B900;
+	border-radius: 12px;
+}
